@@ -34,7 +34,7 @@ const Navbar = () => {
     
     <div className={`px-10 bg-white md:px-8 shadow-md  w-full h-16  fixed top-0 left-0 right-0 flex justify-between md:items-center transition-all duration-800 ${extendNavbar ? "h-[260px]" : "h-16 "} `}>
         <div className={`flex h-16 items-center gap-4  text-4xl text-black cursor-pointer`}>
-            <h1 className=' font-sans font-bold'>Listify</h1>
+            <h1 className=' font-sans font-bold'>Todo</h1>
         </div>
         <div className={` absolute md:static flex flex-col md:flex-row gap-6  text-black transition-all duration-500 ${extendNavbar ? "top-18 left-[82vw]" : "top-18 left-[900px] "}`}>
         {
